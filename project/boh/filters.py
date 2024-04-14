@@ -4,8 +4,6 @@ from django_filters import filters
 
 from .models import Organization, Application
 
-# This is a comment
-
 class ApplicationFilter(django_filters.FilterSet):
     name = filters.CharFilter(lookup_type='icontains')
     organization = filters.ModelMultipleChoiceFilter(queryset=Organization.objects.all())
