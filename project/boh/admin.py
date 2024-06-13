@@ -4,7 +4,7 @@ from django.utils.html import format_html
 
 from . import models
 
-# Comment changed
+# Comment
 
 class EnvironmentCredentials(admin.StackedInline):
     model = models.EnvironmentCredentials
