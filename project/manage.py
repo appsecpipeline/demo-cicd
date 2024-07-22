@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#  comment 3Ctrac
+#  comment updated for demomode
 
 
 import os
