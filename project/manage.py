@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#  comment updated for demomode
+#  comment updated for demo
 
 
 import os
