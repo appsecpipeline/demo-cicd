@@ -4,8 +4,6 @@ from django.utils.html import format_html
 
 from . import models
 
-# Here's a comment
-
 class EnvironmentCredentials(admin.StackedInline):
     model = models.EnvironmentCredentials
     extra = 0
